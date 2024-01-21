@@ -10,14 +10,11 @@
  * @return {boolean}
  */
 var isPalindrome = function (x) {
-  const strX = x.toString();
+  const str = x.toString();
 
-  for (let i = 0, j = strX.length - 1; i < j; i++, j--) {
-    if (strX[i] !== strX[j]) {
-      return false;
-    }
+  for (i = 0, j = str.length - 1; i < j; i++, j--) {
+    if (str[i] !== str[j]) return false;
   }
-
   return true;
 };
 
@@ -25,7 +22,7 @@ console.log(isPalindrome(121));
 console.log(isPalindrome(-121));
 console.log(isPalindrome(10));
 
-// 11511/11511 cases passed (123 ms)
-// Your runtime beats 93.86 % of javascript submissions
-// Your memory usage beats 7.46 % of javascript submissions (56.2 MB)
+// 11511/11511 cases passed (125 ms)
+// Your runtime beats 91.94 % of javascript submissions
+// Your memory usage beats 7.29 % of javascript submissions (56.6 MB)
 // @lc code=end
