@@ -39,4 +39,8 @@ console.log(romanToInt("III"));
 console.log(romanToInt("LVIII"));
 console.log(romanToInt("MCMXCIV"));
 
+// 3999/3999 cases passed (114 ms)
+// Your runtime beats 46.2 % of javascript submissions
+// Your memory usage beats 5.24 % of javascript submissions (55.4 MB)
+
 // @lc code=end
